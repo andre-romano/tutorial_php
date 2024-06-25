@@ -21,12 +21,12 @@
         <div class="mt-4"></div>
 
         <h5>Para esse trabalho, <mark style="background-color: yellow;">o uso de Javascript esta PROIBIDO!</mark> Os
-            dados devem ser validados e manipulados somente pelo servidor, seja no PHP (so quando necessario) ou no SQL
+            dados devem ser validados e manipulados somente pelo servidor, seja no PHP (so quando necessário) ou no SQL
             (preferencialmente).</h5>
         <br>
-        <h5><mark style="background-color: yellow;">Não é preciso estudar o Bootstrap!</mark> Nossa preocupacão aqui é
-            com a funcionalidade do sistema (acesso ão DB e manipulacão de dados usando uma servidor backend PHP, capaz
-            de criar paginas HTML com o conteudo presente no DB MySQL).</h5>
+        <h5><mark style="background-color: yellow;">Não é preciso estudar o Bootstrap!</mark> Nossa preocupação aqui é
+            com a funcionalidade do sistema (acesso ao DB e manipulação de dados usando uma servidor backend PHP, capaz
+            de criar paginas HTML com o conteúdo presente no DB MySQL).</h5>
         <br>
 
         <!-- criar margem superior -->
@@ -165,6 +165,30 @@
         <div class="mb-4"></div>
         <h3 class="text-center">Onde encontrar os projetos de sistemas da disciplina ?</h3>
         <p class="mb-4">Os projetos que iremos usar na disciplina, que envolvem a construcão e utilizacão de DBs relacionais SQL, estão descritos na pasta <b><a href="projetos">./projetos/</a></b>. Nessa pasta voce encontrará a descricão detalhada de cada projeto e o que é esperado que o sistema seja capaz de realizar. Voce também pode acessar os projetos atraves do menu (NAVBAR) que esta no inicio desta pasta, através do botão "Projetos".</p>
+
+        <!-- criar margem inferior -->
+        <div class="mb-4"></div>
+        <h3 class="text-center">Como fazer testes unitários em PHP ?</h3>
+        <div class="mb-4"></div>
+        <ol>
+            <li>Crie um arquivo no seguinte formato <kbd>classeQueQueremosTestarTest.php</kbd> dentro da pasta <kbd>./tests</kbd></li>
+            <li>
+                <span>Dentro desse arquivo voce deve ter o seguinte código:</span><br>
+                <kbd>
+                    <span>require_once __DIR__ . '/../src/classeQueQueremosTestar.php'</span><br>
+                    <span> use PHPUnit\Framework\TestCase;</span><br>
+                    <span> class ClasseQueQueremosTestarTest extends TestCase {</span><br>
+                    <span> &nbsp;&nbsp;&nbsp;&nbsp;public function testNomeDoTesteAqui() {</span><br>
+                    <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$myClass = new ClasseQueQueremosTestar(); </span><br>
+                    <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this->assertEquals($resultadoEsperado, $myClass->funcaoQueQueroTestar(parametrosDaFuncao));</span><br>
+                    <span> &nbsp;&nbsp;&nbsp;&nbsp;}</span><br>
+                    <span> }</span>
+                </kbd>
+            </li>
+            <li>Agora, dentro da raiz do projeto (<kbd>C:\xampp\htdocs\tutorial_php</kbd>) voce deve digitar o comando <kbd>.\vendor\bin\phpunit</kbd> no terminal do Windows (cmd.exe), como mostra o printscreen abaixo:</li>
+        </ol>
+        <img src="img/phpunit_execution.jpg" alt="">
+
 
 
     </div>

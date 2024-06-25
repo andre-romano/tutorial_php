@@ -8,6 +8,8 @@
         "IFBA",
         "ifba"
     ],
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,

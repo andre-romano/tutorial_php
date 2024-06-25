@@ -7,18 +7,8 @@ Ex: Considere um classe chamada Exemplo, entao esse arquivo precisa ser nomeado 
     (sem underline)
 */
 
-/* Classes que queremos testar aqui 
- 
-elas podem ser importadas usando "include" ou "require" tbm 
-(ao inves de definidas em um unico arquivo, como esta aqui)
-*/
-class Exemplo
-{
-    public function concatenateStrings($str1, $str2)
-    {
-        return $str1 . $str2;
-    }
-}
+/* Classes que queremos testar aqui */
+require_once __DIR__ . '/../src/exemplo.php';
 
 /* TestSuites aqui */
 
