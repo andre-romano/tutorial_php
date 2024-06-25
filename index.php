@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial 'breve' de PHP e MySQL</title>
+    <title>Tutorial BrModelo / PHP / MySQL</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,6 +33,66 @@
 
         <!-- criar margem superior -->
         <div class="mt-4"></div>
+        <h2 class="text-center">Como criar um Projeto Conceitual usando o BrModelo</h2>
+        <!-- criar margem superior -->
+        <div class="mt-4"></div>
+
+        <ol>
+            <li class="mb-3">
+                <p>Abra o BrModelo e clique em "Novo". Selecione o modelo que deseja criar (conceitual), conforme printscreen abaixo.</p>
+                <img class="border" src="img/brmodelo_novo.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Se clicarmos no modelo conceitual, teremos a seguinte tela abaixo. Nela podemos criar <b>Entidades, Relacionamentos e Especializações</b>. Para isso basta clicar no ícone do menu na direita e em seguida, clicar em qualquer lugar da grade em cinza (espaço do lado esquerdo da barra de rolagem do programa.)</p>
+                <img class="border" src="img/brmodelo_menu_direita.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para construir as associações entre Entidades e Relacionamentos, basta usar clicar na ferramenta Ligação no menu à direita. Em seguida clique na Entidade e depois no Relacionamento que voce quer ligar. </p>
+                <img class="border" src="img/brmodelo_associacoes.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para criar os Atributos das Entidades, basta clicar na ferramenta "Criar atributo" no menu à direita. Depois clique na Entidade que deseja criar o Atributo. </p>
+                <img class="border" src="img/brmodelo_criar_atributo.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para renomear Atributos, Entidades ou Relacionamentos, basta clicar nelas e, no menu à esquerda, alterar o nome e apertar "Enter" no teclado para confirmar a alteração. Quando estiver satisfeito com seu projeto, voce pode salva-lo no ícone do "Disquete". </p>
+                <img class="border" src="img/brmodelo_alterar_nome.jpg" alt="">
+            </li>
+        </ol>
+
+
+        <!-- criar margem superior -->
+        <div class="mt-4"></div>
+        <h2 class="text-center">Como criar um Projeto Lógico usando o BrModelo</h2>
+        <!-- criar margem superior -->
+        <div class="mt-4"></div>
+
+        <ol>
+            <li class="mb-3">
+                <p>Abra o BrModelo e clique em "Novo". Selecione o modelo que deseja criar (logico), conforme printscreen abaixo.</p>
+                <img class="border" src="img/brmodelo_novo.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Se clicarmos no modelo lógico, teremos a seguinte tela abaixo. Nela podemos criar <b>Tabelas, Campos, Chaves e Associações (entre tabelas)</b>. Para criar uma tabela basta clicar no ícone do menu na direita e em seguida, clicar em qualquer lugar da grade em cinza (espaço do lado esquerdo da barra de rolagem do programa). Para criar um campo em uma tabela, basta clicar no ícone do "Campo" do menu à direita, e em seguida clicar na tabela.</p>
+                <img class="border" src="img/brmodelo_criar_tabela.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para construir as associações entre Tabelas, basta usar clicar na ferramenta Ligação no menu à direita. Em seguida clique na primeira Tabela e depois na segunda que voce quer ligar. </p>
+                <img class="border" src="img/brmodelo_associacoes_tabelas.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para renomear Tabelas ou Campos, basta clicar nelas e, no menu à esquerda, alterar o nome e apertar "Enter" no teclado para confirmar a alteração. Para alterar o tipo de dados de um campo é so seguir o mesmo procedimento, alterando agora o "Tipo de Dados".</p>
+                <img class="border" src="img/brmodelo_renomear_campo.jpg" alt="">
+            </li>
+            <li class="mb-3">
+                <p>Para definir um Atributo como chave primaria, basta clicar nele e, no menu à esquerda, clicar em "Chave Primária" para mudar a opção de "Nao" para "Sim" (quando fizer isso deve aparecer uma chave preta ao lado do atributo). Para a chave estrangeira é o mesmo procedimento usando clicando no campo "Chave Estrangeira" (nesse caso, aparecera uma chave verde ao lado do atributo). </p>
+                <img class="border" src="img/brmodelo_chaves.jpg" alt="">
+            </li>
+        </ol>
+
+
+        <!-- criar margem superior -->
+        <div class="mt-4"></div>
         <h2 class="text-center">Como usar o PHPMyAdmin para administrar um DB</h2>
         <!-- criar margem superior -->
         <div class="mt-4"></div>
@@ -40,35 +102,35 @@
         <ol>
             <li class="mb-3">
                 <p>Selecione o banco de dados que voce deseja trabalhar. Caso o banco de dados não exista, crie ele usando o botão "Novo", conforme figura abaixo.</p>
-                <img src="./img/phpmyadmin_criar_db.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_criar_db.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>Digite o nome do banco de dados e clique em "Criar", conforme figura abaixo.</p>
-                <img src="./img/phpmyadmin_criar_db2.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_criar_db2.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>ão clicar no DB que voce acabou de criar voce vera a seguinte tela. Nela voce pode acessar varios recursos do PHPMySQL, como a aba SQL, Exportar, Importar, e o Designer .</p>
-                <img src="./img/phpmyadmin_tela_db.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_tela_db.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>Nesse momento voce pode importar um arquivo <kbd>.SQL</kbd> para este DB que voce acabou de criar. Desta forma voce podera trabalhar em casa e importar o arquivo para um computador do laboratorio, ou vice-versa. Para isso, clique na aba "Importar" e em seguida no botão "Choose File" .</p>
-                <img src="./img/phpmyadmin_importar.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_importar.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>Em seguida clique no botão "Importar" .</p>
-                <img src="./img/phpmyadmin_importar2.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_importar2.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>Voce também pode exportar um DB, para poder fazer um backup ou trabalhar nesse DB em outra maquina. Para isso, clique na aba "Exportar" e em seguida clique no botão "Exportar". Escolha o nome e local para salvar o arquivo SQL na janela que ira aparecer para voce. </p>
-                <img src="./img/phpmyadmin_exportar.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_exportar.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>O PHPMyAdmin possui uma ferramenta grafica que permite que voce visualize as tabelas e as suas relacões entre si, chamada de Designer. Para acessa-la clique na aba "Designer". Voce pode reorganizar as tabelas para a posicão que desejar e depois salvar essas posicões no PHPMyAdmin para ter de referencia no futuro, quando for usar o Designer novamente. </p>
-                <img src="./img/phpmyadmin_designer.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_designer.jpg" alt="">
             </li>
             <li class="mb-3">
                 <p>Para executar uma consulta SQL, clique na aba "SQL", digite sua consulta e em seguida clique no botão "Executar". </p>
-                <img src="./img/phpmyadmin_sql.jpg" alt="">
+                <img class="border" src="./img/phpmyadmin_sql.jpg" alt="">
             </li>
         </ol>
 
@@ -171,8 +233,8 @@
         <h3 class="text-center">Como fazer testes unitários em PHP ?</h3>
         <div class="mb-4"></div>
         <ol>
-            <li>Crie um arquivo no seguinte formato <kbd>classeQueQueremosTestarTest.php</kbd> dentro da pasta <kbd>./tests</kbd></li>
-            <li>
+            <li class="mb-3">Crie um arquivo no seguinte formato <kbd>classeQueQueremosTestarTest.php</kbd> dentro da pasta <kbd>./tests</kbd></li>
+            <li class="mb-3">
                 <span>Dentro desse arquivo voce deve ter o seguinte código:</span><br>
                 <kbd>
                     <span>require_once __DIR__ . '/../src/classeQueQueremosTestar.php'</span><br>
@@ -185,9 +247,11 @@
                     <span> }</span>
                 </kbd>
             </li>
-            <li>Agora, dentro da raiz do projeto (<kbd>C:\xampp\htdocs\tutorial_php</kbd>) voce deve digitar o comando <kbd>.\vendor\bin\phpunit</kbd> no terminal do Windows (cmd.exe), como mostra o printscreen abaixo:</li>
+            <li class="mb-3">
+                <p>Agora, dentro da raiz do projeto (<kbd>C:\xampp\htdocs\tutorial_php</kbd>) voce deve digitar o comando <kbd>.\vendor\bin\phpunit</kbd> no terminal do Windows (cmd.exe), como mostra o printscreen abaixo:</p>
+                <img class="border" src="img/phpunit_execution.jpg" alt="">
+            </li>
         </ol>
-        <img src="img/phpunit_execution.jpg" alt="">
 
 
 
