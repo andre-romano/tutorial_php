@@ -11,7 +11,7 @@
 <body>
 
     <?php
-    include './include/nav_bar.php';
+    include './src/nav_bar.php';
     ?>
 
     <div class="container">
@@ -43,9 +43,9 @@
 
         echo "O PHP tbm possui bibliotecas que podem ser importadas usando o comando <kbd>include 'NOME_PASTA/NOME_ARQUIVO.php'</kbd>. Para usar essas bibliotecas basta chamar as funcões  que desejar. <br><br>";
 
-        echo "Por convencão usamos a pasta <kbd>./include</kbd> para armazenar bibliotecas que nos mesmos criamos (ou baixamos da internet). <br><br>";
+        echo "Por convenção usamos a pasta <kbd>./src</kbd> para armazenar bibliotecas que nos mesmos criamos (ou baixamos da internet). <br><br>";
 
-        include './include/bootstrap_components.php';
+        include './src/bootstrap_components.php';
 
         createInput("teste", "text", "Este input foi criado:", "usando a biblioteca 'bootstrap_components.php'");
         ?>

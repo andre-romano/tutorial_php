@@ -1,11 +1,19 @@
 {
     "cSpell.enabled": true,
     "cSpell.language": "en,pt_BR",
-    "cSpell.ignoreWords": [
-        "IFBA"
-    ],
+    "cSpell.ignoreWords": [],
     "cSpell.words": [
         "Intelephense",
-        "printscreen"
-    ]
+        "printscreen",
+        "IFBA",
+        "ifba"
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/.phpunit.cache": true,
+        "**/.phpunit.result.cache": true,
+        "**/vendor": true,
+    }
 }

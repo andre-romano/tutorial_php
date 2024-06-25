@@ -10,8 +10,8 @@
 
 <body>
     <?php
-    include_once './include/bootstrap_components.php';
-    include_once './include/nav_bar.php';
+    include_once './src/bootstrap_components.php';
+    include_once './src/nav_bar.php';
     ?>
 
     <!-- criar container bootstrap -->
@@ -113,7 +113,7 @@
         <br>
 
         <p>Seguem os componentes Bootstrap que voces podem usar para construir seu APP usando PHP.</p>
-        <p>O arquivo <i><b>./include/bootstrap_components.php</b></i> descreve como usar as funcoes. Abaixo tem alguns
+        <p>O arquivo <i><b>./src/bootstrap_components.php</b></i> descreve como usar as funcoes. Abaixo tem alguns
             exemplos.</p>
 
         <form class="col" action="index.php" method="POST">

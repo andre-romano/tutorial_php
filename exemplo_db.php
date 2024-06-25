@@ -13,11 +13,11 @@
     // iremos incluir a biblioteca do bootstrap para PHP
     // o "include_once" garante que o arquivo bootstrap_components.php so sera incluido uma vez na pagina
     // ja o "include" simples permite que façamos varios includes do mesmo arquivo varias vezes
-    include_once './include/bootstrap_components.php';
+    include_once './src/bootstrap_components.php';
 
     // cria o menu (navbar) para que possamos navegar com mais facilidade pelo site
     // para alterar o menu, acesse o arquivo nav_bar.php e faca os ajustes necessarios
-    include_once './include/nav_bar.php';
+    include_once './src/nav_bar.php';
 
     ?>
 
@@ -47,7 +47,7 @@
 
         // cria a conexão com o DB "teste" (a informacão do nome do DB "teste" esta dentro do arquivo './db_connection_pdo.php'.
         //    Caso voce precisse usar outro nome de DB, é so alterar o nome "teste" la no arquivo para o nome do novo DB.)
-        include './include/db_connection_pdo.php';
+        include './src/db_connection_pdo.php';
 
         // Verifica se o usuario enviou alguma coisa usando o campo "precoId" atraves do metodo POST do HTTP
         if (isset($_POST['precoId'])) {
@@ -92,7 +92,7 @@
         createTable(array("ID", "Nome", "Preço"), $matriz_tabela);
 
         // desconecte o PHP do DB teste (importante fazer isso sempre que terminarmos de acessar o DB)
-        include './include/db_disconnect_pdo.php';
+        include './src/db_disconnect_pdo.php';
         ?>
 
     </div>
