@@ -1,11 +1,11 @@
 <?php
-// o PHP é como o Python, nao verifica os tipos das variaveis (por padrao)
+// o PHP é como o Python, não verifica os tipos das variaveis (por padrao)
 // isto é, uma variavel pode ter um tipo em um momento e outro em outro momento 
 // ex: $nome = "Carlos"
 //     $nome = 5
 // Para evitar problemas associados aos tipos de variaveis, usamos o declare abaixo
 // que forca o PHP a verificar o tipo das variaveis (int, float, str, etc) no momento 
-// da execucao do script. So funciona com PHP >= 7.0
+// da execucão do script. So funciona com PHP >= 7.0
 declare(strict_types=1); // isto 
 
 // variaveis globais
@@ -25,7 +25,7 @@ function createInput(string $id, string $type = "text", string $texto = "Exemplo
 {
     // o echo imprime na tela uma string
     // o <<<HEREDOC informa que essa string possui varias linhas e termina quando o texto HEREDOC aparecer
-    //     IMPORTANTE: depois do <<<HEREDOC nao pode ter nenhum caracter (nem mesmo um espaco sequer !!! )
+    //     IMPORTANTE: depois do <<<HEREDOC não pode ter nenhum caracter (nem mesmo um espaco sequer !!! )
     // $VARIAVEL indica que nesse local a variavel de nome VARIAVEL deve ser colocada no texto
     echo <<<HEREDOC
     <div class="row mb-3">
@@ -41,9 +41,9 @@ function createInput(string $id, string $type = "text", string $texto = "Exemplo
  * Cria um input select HTML5 usando Bootstrap
  *
  * @param string $id ID do select (usado pelo PHP para pegar dados enviados pelo usuario atraves das variaveis $_GET e $_POST)
- * @param string $texto Texto a ser mostrado para o usuario ao lado do INPUT
- * @param array $options Opcoes que o usuario pode selecionar, no formato array("valor" => "texto")
- * @param string $selected Identifica qual das opcoes deve estar selecionada
+ * @param string $texto Texto a ser mostrado para o usuario ão lado do INPUT
+ * @param array $options Opcões  que o usuario pode selecionar, no formato array("valor" => "texto")
+ * @param string $selected Identifica qual das opcões  deve estar selecionada
  * @return void
  */
 function createSelect(string $id, string $texto, array $options, string $selected = ""): void
@@ -73,9 +73,9 @@ function createSelect(string $id, string $texto, array $options, string $selecte
 // o $checked indica se ele é criado selecionado ou nao
 function createRadioCheckbox(string $nome, string $type, string $texto, string $valor,  bool $checked = false)
 {
-    global $radioCount; // declare que iremos usar essa variavel global nessa funcao    
+    global $radioCount; // declare que iremos usar essa variavel global nessa funcão    
     $radioCount++;
-    $id = $nome . "_" . $radioCount; // o . é a concatenacao de strings no PHP
+    $id = $nome . "_" . $radioCount; // o . é a concatenacão de strings no PHP
     $checkedAttr = ($checked ? "checked" : "");
     echo <<<HEREDOC
     <div class="form-check">

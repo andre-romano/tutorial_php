@@ -24,8 +24,8 @@
             dados devem ser validados e manipulados somente pelo servidor, seja no PHP (so quando necessario) ou no SQL
             (preferencialmente).</h5>
         <br>
-        <h5><mark style="background-color: yellow;">Nao é preciso estudar o Bootstrap!</mark> Nossa preocupacao aqui é
-            com a funcionalidade do sistema (acesso ao DB e manipulacao de dados usando uma servidor backend PHP, capaz
+        <h5><mark style="background-color: yellow;">Não é preciso estudar o Bootstrap!</mark> Nossa preocupacão aqui é
+            com a funcionalidade do sistema (acesso ão DB e manipulacão de dados usando uma servidor backend PHP, capaz
             de criar paginas HTML com o conteudo presente no DB MySQL).</h5>
         <br>
 
@@ -39,7 +39,7 @@
 
         <ol>
             <li class="mb-3">
-                <p>Selecione o banco de dados que voce deseja trabalhar. Caso o banco de dados nao exista, crie ele usando o botao "Novo", conforme figura abaixo.</p>
+                <p>Selecione o banco de dados que voce deseja trabalhar. Caso o banco de dados não exista, crie ele usando o botão "Novo", conforme figura abaixo.</p>
                 <img src="./img/phpmyadmin_criar_db.jpg" alt="">
             </li>
             <li class="mb-3">
@@ -47,27 +47,27 @@
                 <img src="./img/phpmyadmin_criar_db2.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>Ao clicar no DB que voce acabou de criar voce vera a seguinte tela. Nela voce pode acessar varios recursos do PHPMySQL, como a aba SQL, Exportar, Importar, e o Designer .</p>
+                <p>ão clicar no DB que voce acabou de criar voce vera a seguinte tela. Nela voce pode acessar varios recursos do PHPMySQL, como a aba SQL, Exportar, Importar, e o Designer .</p>
                 <img src="./img/phpmyadmin_tela_db.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>Nesse momento voce pode importar um arquivo <kbd>.SQL</kbd> para este DB que voce acabou de criar. Desta forma voce podera trabalhar em casa e importar o arquivo para um computador do laboratorio, ou vice-versa. Para isso, clique na aba "Importar" e em seguida no botao "Choose File" .</p>
+                <p>Nesse momento voce pode importar um arquivo <kbd>.SQL</kbd> para este DB que voce acabou de criar. Desta forma voce podera trabalhar em casa e importar o arquivo para um computador do laboratorio, ou vice-versa. Para isso, clique na aba "Importar" e em seguida no botão "Choose File" .</p>
                 <img src="./img/phpmyadmin_importar.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>Em seguida clique no botao "Importar" .</p>
+                <p>Em seguida clique no botão "Importar" .</p>
                 <img src="./img/phpmyadmin_importar2.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>Voce tambem pode exportar um DB, para poder fazer um backup ou trabalhar nesse DB em outra maquina. Para isso, clique na aba "Exportar" e em seguida clique no botao "Exportar". Escolha o nome e local para salvar o arquivo SQL na janela que ira aparecer para voce. </p>
+                <p>Voce também pode exportar um DB, para poder fazer um backup ou trabalhar nesse DB em outra maquina. Para isso, clique na aba "Exportar" e em seguida clique no botão "Exportar". Escolha o nome e local para salvar o arquivo SQL na janela que ira aparecer para voce. </p>
                 <img src="./img/phpmyadmin_exportar.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>O PHPMyAdmin possui uma ferramenta grafica que permite que voce visualize as tabelas e as suas relacoes entre si, chamada de Designer. Para acessa-la clique na aba "Designer". Voce pode reorganizar as tabelas para a posicao que desejar e depois salvar essas posicoes no PHPMyAdmin para ter de referencia no futuro, quando for usar o Designer novamente. </p>
+                <p>O PHPMyAdmin possui uma ferramenta grafica que permite que voce visualize as tabelas e as suas relacões entre si, chamada de Designer. Para acessa-la clique na aba "Designer". Voce pode reorganizar as tabelas para a posicão que desejar e depois salvar essas posicões no PHPMyAdmin para ter de referencia no futuro, quando for usar o Designer novamente. </p>
                 <img src="./img/phpmyadmin_designer.jpg" alt="">
             </li>
             <li class="mb-3">
-                <p>Para executar uma consulta SQL, clique na aba "SQL", digite sua consulta e em seguida clique no botao "Executar". </p>
+                <p>Para executar uma consulta SQL, clique na aba "SQL", digite sua consulta e em seguida clique no botão "Executar". </p>
                 <img src="./img/phpmyadmin_sql.jpg" alt="">
             </li>
         </ol>
@@ -89,12 +89,12 @@
         </p>
         <p>
             Quando digitamos o nome de um website qualquer, como <mark>www.google.com</mark>, o
-            servidor HTTP ira abrir por padrao o arquivo com nome <b><i>index.php</i></b>.
+            servidor HTTP ira abrir por padrão o arquivo com nome <b><i>index.php</i></b>.
         </p>
         <p>
-            Esse arquivo contem tags HTML5 e instrucoes PHP. As instrucoes PHP devem estar apos o comando <kbd>
+            Esse arquivo contem tags HTML5 e instrucões PHP. As instrucões PHP devem estar apos o comando <kbd>
                 < ?php</kbd>(sem o espaco entre < ?) e antes do comando <kbd>? >
-            </kbd> (sem o espaco). Tudo que estiver fora dessas instrucoes é interpretado pelo PHP como sendo uma tag HTML.
+            </kbd> (sem o espaco). Tudo que estiver fora dessas instrucões é interpretado pelo PHP como sendo uma tag HTML.
         </p>
         <p>Abra este <a href="exemplo.html">examplo de arquivo HTML</a> para ver uma pagina HTML5 pura, sem comandos PHP.</p>
         <p>Abra este <a href="exemplo.php">examplo de arquivo PHP</a> para ver como construir uma pagina HTML usando o PHP. </p>
@@ -116,17 +116,18 @@
         <p>O arquivo <i><b>./include/bootstrap_components.php</b></i> descreve como usar as funcoes. Abaixo tem alguns
             exemplos.</p>
 
-        <form class="col">
+        <form class="col" action="index.php" method="POST">
             <?php
             createInput("inputTeste", "text", "Teste");
             createInput("inputSenha", "password", "Senha");
-            createInput("inputEmail", "email", "Email");
+            createInput("inputEmail", "email", "Email", "emailDeAlguem@gmail.com");
             createRadioCheckbox("teste", "checkbox", "Isso é um teste", "1");
+            createRadioCheckbox("outroTeste", "checkbox", "Isso é OUTRO teste", "1", true);
             createSelect(
                 "testeSelect",
                 "Selecione uma das opcoes",
                 array(
-                    "1" => "Opcao 1",
+                    "1" => "Opcão 1",
                     "2" => "Segunda Opcao"
                 ),
                 "2"
@@ -159,6 +160,11 @@
             )
         );
         ?>
+
+        <!-- criar margem inferior -->
+        <div class="mb-4"></div>
+        <h3 class="text-center">Onde encontrar os projetos de sistemas da disciplina ?</h3>
+        <p class="mb-4">Os projetos que iremos usar na disciplina, que envolvem a construcão e utilizacão de DBs relacionais SQL, estão descritos na pasta <b><a href="projetos">./projetos/</a></b>. Nessa pasta voce encontrará a descricão detalhada de cada projeto e o que é esperado que o sistema seja capaz de realizar. Voce também pode acessar os projetos atraves do menu (NAVBAR) que esta no inicio desta pasta, através do botão "Projetos".</p>
 
 
     </div>

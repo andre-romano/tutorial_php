@@ -1,40 +1,48 @@
-<!-- aba de navegacao do site -->
 <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body mb-4" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">NOME DO SISTEMA AQUI</a>
+        <a class="navbar-brand" href="#">TUTORIAL PHP E SQL</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="exemplo.php">Exemplo PHP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="exemplo.html">Exemplo HTML</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="exemplo_db.php">Exemplo DB</a>
-                </li>
-                <!-- 
+                <!-- TUDO QUE ESTIVER DENTRO DESSE TAG <ul> aparecera no NAVBAR -->
 
-                TUDO QUE ESTA DENTRO DAQUI É UM COMENTARIO HTML
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/tutorial_php/index.php">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/tutorial_php/exemplo.php">Exemplo PHP</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/tutorial_php/exemplo.html">Exemplo HTML</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/tutorial_php/exemplo_db.php">Exemplo DB</a>
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
+                        Projetos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <?php
+                        foreach (scandir(__DIR__ . "/../projetos") as $projeto) {
+                            if (preg_match("/" . "\.php$" . "/Xu", $projeto)) {
+                                $nome_projeto = strtoupper(preg_replace("/" . "\.php$" . "/Xu", "", $projeto));
+                                echo <<<HEREDOC
+                                <li><a class="dropdown-item" href="/tutorial_php/projetos/$projeto">$nome_projeto</a></li>
+                                HEREDOC;
+                            }
+                        }
+                        ?>
                     </ul>
-                </li> 
-                
-                -->
+                </li>
+
+                <!-- FIM DOS BOTões  DO NAVBAR -->
             </ul>
         </div>
     </div>

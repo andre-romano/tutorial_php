@@ -1,2 +1,7 @@
 {
+    "cSpell.enabled": true,
+    "cSpell.language": "en,pt_BR",
+    "cSpell.ignoreWords": [
+        "IFBA"
+    ]
 }
