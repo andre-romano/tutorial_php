@@ -4,7 +4,7 @@ Iremos usar o Apache (servidor), PHP (backend), MySQL (DBMS) e PHPMyAdmin (ferra
 
 ## 0.1. Instalação do BrModelo
 
-1. Clique no link **<a target="_blank" href="https://sourceforge.net/projects/xampp/files/latest/download">https://sourceforge.net/projects/xampp/files/latest/download</a>** para baixar e instalar a versão mais nova do BrModelo.
+1. Clique no link **<a target="_blank" href="https://sourceforge.net/projects/brmodelo/files/latest/download">https://sourceforge.net/projects/brmodelo/files/latest/download</a>** para baixar e instalar a versão mais nova do BrModelo.
 
 2. Salve esse arquivo em sua Area de Trabalho. Clique nele duas vezes para abrir o BrModelo. Quando fizer isso você verá a seguinte tela. Nela, se você clicar no menu "Arquivo" -> "Novo" voce poderá criar um projeto conceitual ou logico de Banco de Dados. Iremos ver como fazer isso mais a frente no tutorial. Continue seguindo o passo-a-passo abaixo.
 
