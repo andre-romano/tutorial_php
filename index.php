@@ -22,9 +22,7 @@
         <!-- criar margem superior -->
         <div class="mt-4"></div>
 
-        <h5>Para esse trabalho, <mark style="background-color: yellow;">o uso de Javascript esta PROIBIDO!</mark> Os
-            dados devem ser validados e manipulados somente pelo servidor, seja no PHP (so quando necessário) ou no SQL
-            (preferencialmente).</h5>
+        <h5>Os dados devem ser validados preferencialmente pelo DBMS, e caso nao seja possível realizar uma validação especifica pelo DBMS, os dados podem ser validados pelo PHP.</h5>
         <br>
         <h5><mark style="background-color: yellow;">Não é preciso estudar o Bootstrap!</mark> Nossa preocupação aqui é
             com a funcionalidade do sistema (acesso ao DB e manipulação de dados usando uma servidor backend PHP, capaz
@@ -257,7 +255,7 @@
 
     </div>
 
-    <!-- carrega bootstrap (unico arquivo JS ou script Javascript permitido neste trabalho!) -->
+    <!-- carrega bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
