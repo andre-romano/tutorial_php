@@ -1,6 +1,15 @@
 # Projeto de DB usando PHP e MySQL
 
 Iremos usar o Apache (servidor), PHP (backend), MySQL (DBMS) e PHPMyAdmin (ferramenta DBA) para criar uma aplicação que usa bancos de dados relacionais. Para isso iremos precisar da ferramenta XAMPP (que ja deve estar instalada em sua máquina).
+## 0.0. Sumário
+- [Projeto de DB usando PHP e MySQL](#projeto-de-db-usando-php-e-mysql)
+  - [0.0. Sumário](#00-sumário)
+  - [0.1. Instalação do BrModelo](#01-instalação-do-brmodelo)
+  - [0.2. Instalação e configuração do XAMPP (se a maquina não possui o XAMPP)](#02-instalação-e-configuração-do-xampp-se-a-maquina-não-possui-o-xampp)
+  - [1. Instalação do Composer (gerenciador de dependências do PHP)](#1-instalação-do-composer-gerenciador-de-dependências-do-php)
+  - [2. Instalação e configuração da IDE VsCode](#2-instalação-e-configuração-da-ide-vscode)
+  - [3. Iniciando os serviços do XAMPP (Apache e MySQL)](#3-iniciando-os-serviços-do-xampp-apache-e-mysql)
+  - [4. Criando um projeto dentro do servidor Apache do XAMPP](#4-criando-um-projeto-dentro-do-servidor-apache-do-xampp)
 
 ## 0.1. Instalação do BrModelo
 
