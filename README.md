@@ -70,5 +70,12 @@ Iremos usar o Apache (servidor), PHP (backend), MySQL (DBMS) e PHPMyAdmin (ferra
 1. Para criar outros projetos com PHP / MySQL no XAMPP, basta criar uma pasta **"C:\xampp\htdocs\NOME_DO_PROJETO"** e acessar seu conteudo em **<a target="_blank" href="http://localhost/NOME_DO_PROJETO">http://localhost/NOME_DO_PROJETO</a>** no navegador.
 
 2. Iremos criar o projeto **"tutorial_php"** no XAMPP. Para isso, crie a pasta **"C:\xampp\htdocs\tutorial_php"**. Copie todos os arquivos deste repositório Git para a pasta.
+    ![alt text](img/repositorio_download.jpg "xx")
+
+
+    ![alt text](img/repositorio_extrair.jpg "xx")
+
+
+    ![alt text](img/repositorio_extrair2.jpg "xx")
 
 > - A partir desse momento voce deve ser capaz de acessar os arquivos PHP através do link **<a target="_blank" href="http://localhost/tutorial_php">http://localhost/tutorial_php</a>** no navegador. Acesse esse link para ter mais detalhes de como conduzir esse projeto.
