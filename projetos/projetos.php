@@ -28,10 +28,8 @@
     <div class="container">
 
         <!-- Simply set the `src` attribute to your MD file and win -->
-        <zero-md src="sistema_especialista.md"></zero-md>
+        <zero-md src="README.md"></zero-md>
 
-        <div class="mb-3"></div>
-        <zero-md src="dicas.md"></zero-md>
         <div class="mb-5"></div>
 
     </div>
