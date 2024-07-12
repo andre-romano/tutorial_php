@@ -41,15 +41,6 @@ Iremos usar o Apache (servidor), PHP (backend), MySQL (DBMS) e PHPMyAdmin (ferra
 
     ![alt](img/composer_test.jpg)
 
-4. Agora ja podemos instalar as dependências dos nossos projetos usando o "composer". Para isso abra o terminal do Windows (cmd.exe). Em seguida digite os comandos abaixo (veja printscreen abaixo também):
-
-    ```cmd
-    cd C:\xampp\htdocs\tutorial_php
-    composer install
-    ```
-
-    ![alt](img/composer_dependencies.jpg)
-
 ## 2. Instalação e configuração da IDE VsCode
 
 0. Verifique se o VsCode esta instalado na sua maquina, clicando no menu "Iniciar" do Windows e digitando "vscode". Se ele aparecer no menu Iniciar (vide printscreen abaixo), ele esta instalado na maquina. Do contrario, prossiga com a instalação no passo **1.** abaixo.
@@ -88,3 +79,12 @@ Iremos usar o Apache (servidor), PHP (backend), MySQL (DBMS) e PHPMyAdmin (ferra
     ![alt text](img/repositorio_extrair2.jpg "xx")
 
 > - A partir desse momento voce deve ser capaz de acessar os arquivos PHP através do link **<a target="_blank" href="http://localhost/tutorial_php">http://localhost/tutorial_php</a>** no navegador. Acesse esse link para ter mais detalhes de como conduzir esse projeto.
+
+3. Agora ja podemos instalar as dependências do nosso projeto usando o "composer". Para isso abra o terminal do Windows (cmd.exe). Em seguida digite os comandos abaixo (veja printscreen abaixo também):
+
+    ```cmd
+    cd C:\xampp\htdocs\tutorial_php
+    composer install
+    ```
+
+    ![alt](img/composer_dependencies.jpg)
