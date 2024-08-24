@@ -24,13 +24,12 @@ No arquivo **[exemplo_ifba.php](exemplo_ifba.php)** tem exemplos de como constru
     - [7. Sistema de Vendas Online](#7-sistema-de-vendas-online)
     - [8. Sistema Especialista para Diagnóstico de Doenças](#8-sistema-especialista-para-diagnóstico-de-doenças)
     - [9. Sistema de Agendamento de Consultas Médicas](#9-sistema-de-agendamento-de-consultas-médicas)
-    - [10. Sistema de Gestão de Cursos](#10-sistema-de-gestão-de-cursos)
-    - [11. Sistema de Controle de Manutenção de Veículos](#11-sistema-de-controle-de-manutenção-de-veículos)
-    - [12. Sistema de Gestão de Imóveis](#12-sistema-de-gestão-de-imóveis)
-    - [13. Sistema de Controle de Frequência Escolar](#13-sistema-de-controle-de-frequência-escolar)
-    - [14. Sistema de Gestão de Academia](#14-sistema-de-gestão-de-academia)
-    - [15. Sistema de Gestão de Eventos](#15-sistema-de-gestão-de-eventos)
-    - [16. Sistema de Gestão de Transportadora](#16-sistema-de-gestão-de-transportadora)
+    - [10. Sistema de Controle de Manutenção de Veículos](#10-sistema-de-controle-de-manutenção-de-veículos)
+    - [11. Sistema de Gestão de Imóveis](#11-sistema-de-gestão-de-imóveis)
+    - [12. Sistema de Controle de Frequência Escolar](#12-sistema-de-controle-de-frequência-escolar)
+    - [13. Sistema de Gestão de Academia](#13-sistema-de-gestão-de-academia)
+    - [14. Sistema de Gestão de Eventos](#14-sistema-de-gestão-de-eventos)
+    - [15. Sistema de Gestão de Transportadora](#15-sistema-de-gestão-de-transportadora)
 
 
 ### 1. Sistema de Gestão de Biblioteca
@@ -134,20 +133,7 @@ Um sistema para gerenciar agendamentos de consultas em uma clínica médica. Inc
 - Agendamento de consultas (paciente, médico, data, hora)
 - Histórico de consultas
 
-### 10. Sistema de Gestão de Cursos
-**Descrição:**
-Um sistema para gerenciar cursos (online ou presencial), incluindo cadastro de cursos, alunos, instrutores e controle de matrículas.
-
-**Funcionalidades:**
-- Cadastro de cursos (nome, descrição, instrutor, duração)
-- Cadastro de alunos (nome, email, telefone)
-- Cadastro de instrutores (nome, especialidade, email)
-- Matrícula de alunos em cursos
-- Acompanhamento do progresso do curso (qtd de aulas ministradas em relacao ao total)
-- Avaliação dos cursos pelos alunos
-- Avaliação dos alunos por curso (notas)
-
-### 11. Sistema de Controle de Manutenção de Veículos
+### 10. Sistema de Controle de Manutenção de Veículos
 **Descrição:**
 Um sistema para gerenciar a manutenção de veículos em uma oficina mecânica. Inclui funcionalidades para cadastro de veículos, clientes, ordens de serviço e histórico de manutenção.
 
@@ -158,7 +144,7 @@ Um sistema para gerenciar a manutenção de veículos em uma oficina mecânica. 
 - Histórico de manutenção por veículo
 - Relatórios de serviços realizados
 
-### 12. Sistema de Gestão de Imóveis
+### 11. Sistema de Gestão de Imóveis
 **Descrição:**
 Um sistema para gerenciar a venda e locação de imóveis. Inclui funcionalidades para cadastro de imóveis, proprietários, inquilinos e contratos.
 
@@ -170,7 +156,7 @@ Um sistema para gerenciar a venda e locação de imóveis. Inclui funcionalidade
 - Controle de pagamentos de aluguel
 - Relatórios de imóveis disponíveis e ocupados
 
-### 13. Sistema de Controle de Frequência Escolar
+### 12. Sistema de Controle de Frequência Escolar
 **Descrição:**
 Um sistema para gerenciar a frequência de alunos em uma escola. Inclui funcionalidades para cadastro de turmas, alunos e registro de presença.
 
@@ -181,7 +167,7 @@ Um sistema para gerenciar a frequência de alunos em uma escola. Inclui funciona
 - Relatórios de frequência por aluno e por turma
 - Alertas para faltas excessivas
 
-### 14. Sistema de Gestão de Academia
+### 13. Sistema de Gestão de Academia
 **Descrição:**
 Um sistema para gerenciar membros e treinos em uma academia. Inclui funcionalidades para cadastro de membros, instrutores, planos de treino e controle de pagamentos.
 
@@ -193,7 +179,7 @@ Um sistema para gerenciar membros e treinos em uma academia. Inclui funcionalida
 - Registro de pagamentos de mensalidades
 - Relatórios de frequência dos membros e pagamentos
 
-### 15. Sistema de Gestão de Eventos
+### 14. Sistema de Gestão de Eventos
 **Descrição:**
 Um sistema para gerenciar eventos, incluindo cadastro de eventos, participantes e controle de inscrições.
 
@@ -204,7 +190,7 @@ Um sistema para gerenciar eventos, incluindo cadastro de eventos, participantes 
 - Controle de presença nos eventos
 - Relatórios de eventos e participantes inscritos e ocupação do espaço (qtd de inscritos vs  capacidade total do espaço)
 
-### 16. Sistema de Gestão de Transportadora
+### 15. Sistema de Gestão de Transportadora
 **Descrição:**
 Um sistema para gerenciar entregas e frotas de uma transportadora. Inclui funcionalidades para cadastro de veículos, motoristas, rotas e controle de entregas.
 
